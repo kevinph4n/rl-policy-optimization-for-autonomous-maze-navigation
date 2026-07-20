@@ -8,8 +8,9 @@ A Reinforcement Learning (RL) policy optimization project developed during a rob
 
 Instead of modifying the learning algorithm itself, our team focused on **reward engineering** to improve the agent's navigation behaviour through iterative experimentation and policy refinement.
 
-<img width="854" height="855" alt="image" src="https://github.com/user-attachments/assets/1e078e78-8828-46ba-a65d-fc04afccdf25" />
-
+<img width="1365" height="1500" alt="image" src="https://github.com/user-attachments/assets/1e078e78-8828-46ba-a65d-fc04afccdf25" />
+<img width="1365" height="1500" alt="image" src="https://github.com/user-attachments/assets/50e07d10-832e-414b-a41e-d78c0b0e9a10" />
+*Figure 1: Illustrative representation of a Micromouse robot implementing the Flood Fill algorithm for maze-solving by Tri Bao. Project supervised by the BotBee Club, Tran Dai Nghia High School for the Gifted, Ho Chi Minh City.
 
 ---
 
