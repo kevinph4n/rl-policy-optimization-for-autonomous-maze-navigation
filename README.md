@@ -154,7 +154,7 @@ Through this project we learned that:
 # Repository Structure
 
 ```
-.
+|
 ├── README.md
 ├── LICENSE
 ├── docs/
