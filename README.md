@@ -214,3 +214,5 @@ We sincerely thank the organizers for providing the simulation platform and comp
 This repository documents the engineering methodology and project outcomes only.
 
 The simulator, datasets, and competition platform remain the intellectual property of the hackathon organizers.
+
+Status: Completed as part of CSE SummerSchool Robotics Hackathon 2026.
