@@ -158,6 +158,7 @@ Through this project we learned that:
 ```
 .
 ├── README.md
+├── LICENSE.md
 ├── docs/
 │   ├── Final_Presentation.pdf
 │
@@ -168,8 +169,15 @@ Through this project we learned that:
 │       ├── objective_2_coverage.jpg
 │
 └── results/
-    ├── policy.csv
-    ├── reward_formula.json
+    ├── policy/
+    │   ├── policy1_checkpoints.csv
+    │   ├── policy2_coverage.csv
+    │
+    ├── reward_formula/
+        ├── reward1_checkpoints.json
+        ├── reward2_coverage.json
+
+
 ```
 
 ---
