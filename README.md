@@ -2,73 +2,78 @@
 
 A Reinforcement Learning (RL) policy optimization project developed during a robotics hackathon, focusing on autonomous robot navigation in a simulated maze environment.
 
-The simulation platform and environment were provided by the organizers. Our work focused on improving the agent's navigation policy through reward engineering, iterative experimentation, and performance evaluation.
+Instead of modifying the learning algorithm itself, our team focused on **reward engineering** to improve the agent's navigation behaviour through iterative experimentation and policy refinement.
 
 ---
 
 ## Team
 
-| Member | Contribution |
-|---------|--------------|
-| Phan Hong Phuc (me) | Reward engineering, policy optimization, experiment design, presentation - Objective 2 (Coverage) |
-| Nguyen Chi Nguyen | Reward engineering, policy optimization, experiment design, presentation - Objective 1 Checkpoints) |
-| Dao Cong Tri Bao | Reward engineering, policy optimization, experiment design, presentation - Objective 2 (Coverage) |
-| Tran Hoang Son | Reward engineering, policy optimization, experiment design, presentation - Objective 3 (Wall-touching) |
-| Nguyen Hoang Khang Huy | Reward engineering, policy optimization, experiment design, presentation - Objective 3 (Wall-touching) |
+| Member | Responsibilities |
+|---------|------------------|
+| **Phan Hong Phuc** | Reward engineering, policy optimization, experiment design, evaluation on 500+ maps, presentation (Objective 2: Coverage) |
+| **Nguyen Chi Nguyen** | Reward engineering, policy optimization, presentation (Objective 1: Checkpoints) |
+| **Dao Cong Tri Bao** | Reward engineering, policy optimization, presentation (Objective 2: Coverage) |
+| **Tran Hoang Son** | Reward engineering, policy optimization, presentation (Objective 3: Wall-touching) |
+| **Nguyen Hoang Khang Huy** | Reward engineering, policy optimization, presentation (Objective 3: Wall-touching) |
+
+Mentor: **Nguyen Minh Thai**
 
 ---
 
-## Project Overview
+# Project Overview
 
-### Objective
+## Objective
 
-Develop an RL policy capable of navigating an autonomous robot through randomly generated maze environments while maximizing navigation performance.
+Improve the navigation policy of an autonomous robot operating inside randomly generated maze environments by designing an effective reward function.
 
-The agent should learn to:
+The optimized policy aims to:
 
 - Reach the goal efficiently
-- Avoid collisions
-- Minimize unnecessary movements
+- Collect checkpoints
+- Maximize map coverage
+- Avoid wall collisions
+- Reduce unnecessary movements
 - Balance exploration and exploitation
 
 ---
 
-## Environment
+# Environment
 
-The simulator was provided exclusively by the hackathon organizers.
+The simulator and training environment were provided exclusively by the hackathon organizers.
 
-Features included:
+The environment includes:
 
 - Randomly generated maze maps
-- Robot agent
+- Autonomous robot agent
 - Obstacles and walls
-- Goal location
+- Goal position
 - Checkpoints
 - Reward-based Reinforcement Learning framework
 
 > **Note**
 >
-> Since the simulator is proprietary, its source code cannot be shared publicly.
-> This repository documents our engineering process, methodology, and experimental findings.
+> The simulator is proprietary and cannot be publicly distributed.
+> Therefore, this repository documents our engineering methodology, experimental process, and project outcomes rather than the simulator source code.
 
 ---
 
-## Individual Contribution (Phan Hong Phuc)
+# Engineering Approach
 
-The primary engineering tasks included:
+Rather than changing the RL algorithm itself, our team focused on **reward shaping**.
 
-- Designing and refining the reward function
-- Policy optimization through iterative experimentation
-- Evaluating policy performance across 500+ generated maps
-- Analyzing agent behaviors and navigation efficiency
-- Preparing technical presentation slides
-- Presenting experimental results
+We iteratively modified reward functions, trained the agent, observed its behaviour, identified failure cases, and refined the policy until achieving stable navigation performance.
+
+The optimization process primarily targeted three objectives:
+
+- Objective 1 — Checkpoint Collection
+- Objective 2 — Map Coverage
+- Objective 3 — Wall-touching Reduction
 
 ---
 
-## Reward Policy
+# Reward Policy
 
-Example reward configuration:
+One of the reward configurations evaluated during experimentation:
 
 | Event | Reward |
 |--------|-------:|
@@ -77,119 +82,124 @@ Example reward configuration:
 | Collision | -200 |
 | Every Action | -2 |
 
-The reward values were iteratively adjusted to improve:
+The reward function was continuously refined to improve:
 
 - Navigation efficiency
-- Collision avoidance
 - Policy stability
+- Collision avoidance
 - Exploration strategy
 
 ---
 
-## Experiments
+# Experiments
 
-Multiple reward configurations were iteratively evaluated before selecting the final policy used during inference based on:
-- Success rate
-- Average path length
+Multiple reward configurations were evaluated through repeated training and inference.
+
+Evaluation focused on:
+
+- Goal-reaching behaviour
+- Checkpoint collection
+- Coverage efficiency
 - Collision frequency
 - Navigation stability
-- Policy consistency
 
-Evaluation was performed on more than **500 generated maze maps**.
+The final policy was evaluated on **500+ randomly generated maze maps**.
 
 ---
 
-## Results
+# Engineering Challenges
 
-The final policy demonstrated:
+Some common failure cases encountered during policy optimization included:
+
+- Robot repeatedly colliding with walls
+- Robot spinning in place until reaching the maximum step limit
+- Inefficient exploration resulting in poor map coverage
+
+These behaviours were gradually reduced through reward engineering and iterative experimentation. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Results
+
+The optimized reward policy demonstrated:
 
 - Stable navigation across 500+ generated maps
-- Effective collision avoidance
-- Consistent goal-reaching behaviour
-- Improved balance between exploration and exploitation
+- More consistent goal-reaching behaviour
+- Improved exploration efficiency
+- Reduced wall collisions
+- Better balance between exploration and exploitation
 
 ---
 
-## Repository Structure
+# Lessons Learned
+
+Through this project we learned that:
+
+- Reward engineering plays a critical role in Reinforcement Learning.
+- Good performance depends on balancing reward design, training episodes, and training map diversity.
+- The training environment is just as important as the learning algorithm itself.
+- Policy optimization is an iterative engineering process rather than a one-time tuning task. :contentReference[oaicite:2]{index=2}
+
+---
+
+# Tech Stack
+
+- Reinforcement Learning
+- Reward Engineering
+- Autonomous Navigation
+- GitHub
+
+*(Simulation platform provided by the organizers.)*
+
+---
+
+# Repository Structure
 
 ```
 .
 ├── README.md
 ├── docs/
-│   ├── Final_Slides.pdf
-│   ├── Technical_Report.pdf
-│   └── Architecture.png
+│   ├── Final_Presentation.pdf
+│   └── Technical_Report.pdf
 │
 ├── images/
-│   ├── maze_example.png
-│   ├── navigation_result.gif
-│   ├── reward_curve.png
-│   └── inference.png
+│   ├── maze_examples/
+│   ├── inference/
+│   ├── reward_analysis/
+│   └── training/
 │
-├── results/
-│   ├── evaluation.md
-│   └── experiments.md
+├── videos/
+│   └── demo.mp4
 │
-└── videos/
-    └── demo.mp4
+└── results/
+    ├── reward_policy.md
+    ├── experiment_log.md
+    └── observations.md
 ```
 
 ---
 
-## Gallery
+# Future Improvements
 
-### Maze Environment
+Potential future work includes:
 
-*(Insert screenshot)*
-
----
-
-### Navigation Result
-
-*(Insert GIF or video)*
+- Automated reward tuning
+- Hyperparameter optimization
+- Curriculum learning
+- Multi-objective reward optimization
+- Transfer learning to real robotic platforms
 
 ---
 
-### Policy Performance
+# Acknowledgements
 
-*(Insert charts or evaluation images)*
-
----
-
-## Lessons Learned
-
-This project strengthened our understanding of:
-
-- Reinforcement Learning
-- Reward Engineering
-- Policy Optimization
-- Autonomous Navigation
-- Experimental Design
-- Team Collaboration
-- Engineering Communication
-
----
-
-## Tech Stack
-
-- Python
-- Reinforcement Learning
-- Autonomous Navigation
-- Reward Engineering
-
-*(Simulator provided by organizers)*
-
----
-
-## Acknowledgements
-
-This project was developed during **[Hackathon Name]** under the guidance of our mentor.
+Developed during **[Hackathon Name]** under the guidance of **Nguyen Minh Thai**.
 
 We sincerely thank the organizers for providing the simulation platform and competition environment.
 
 ---
 
-## License
+# License
 
 This repository documents the engineering methodology and project outcomes only.
 
