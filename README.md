@@ -11,7 +11,7 @@ Instead of modifying the learning algorithm itself, our team focused on **reward
 <img width="1365" height="1500" alt="image" src="https://github.com/user-attachments/assets/1e078e78-8828-46ba-a65d-fc04afccdf25" />
 <img width="1365" height="1500" alt="image" src="https://github.com/user-attachments/assets/7084a45b-fce7-4658-a211-ed22e771a6e8" />
 
-*Figure 1: Illustrative representation of a Micromouse robot implementing the Flood Fill algorithm for maze-solving by Tri Bao. The background has been modified using Gemini for illustrative clarity. Project supervised by the BotBee Club, Tran Dai Nghia High School for the Gifted, Ho Chi Minh City. 
+> **Figure 1:** Illustrative representation of a Micromouse robot implementing the Flood Fill algorithm for maze-solving by Dao Cong Tri Bao. The background has been modified using Gemini for illustrative clarity. Project supervised by the BotBee Club, Tran Dai Nghia High School for the Gifted, Ho Chi Minh City. 
 
 ---
 
