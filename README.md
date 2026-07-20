@@ -80,15 +80,6 @@ The optimization process primarily targeted three objectives:
 
 # Reward Policy
 
-One of the reward configurations evaluated during experimentation:
-
-| Event | Reward |
-|--------|-------:|
-| Reach Goal | +400 |
-| Reach Checkpoint | +100 |
-| Collision | -200 |
-| Every Action | -2 |
-
 The reward function was continuously refined to improve:
 
 - Navigation efficiency
