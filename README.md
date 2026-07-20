@@ -1,4 +1,8 @@
 # Reward Engineering for Reinforcement Learning-based Autonomous Maze Navigation
+![Reinforcement Learning](https://img.shields.io/badge/Reinforcement-Learning-green)
+![Robotics](https://img.shields.io/badge/Robotics-Autonomous-orange)
+![Hackathon](https://img.shields.io/badge/Hackathon-CSE%20SummerSchool%202026-red)
+![Portfolio](https://img.shields.io/badge/Portfolio-Project-purple)
 
 A Reinforcement Learning (RL) policy optimization project developed during a robotics hackathon, focusing on autonomous robot navigation in a simulated maze environment.
 
