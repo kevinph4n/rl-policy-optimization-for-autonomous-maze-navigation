@@ -162,8 +162,8 @@ Through this project we learned that:
 │   ├── Final_Presentation.pdf
 │
 ├── images/
-│   ├── maze_main/
-│   ├── inference/
+│   ├── maze_map_main_to_run/
+│   ├── objective_agent_path/
 │
 └── results/
     ├── policy.csv
