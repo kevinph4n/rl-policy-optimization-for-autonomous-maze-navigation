@@ -16,15 +16,15 @@ Instead of modifying the learning algorithm itself, our team focused on **reward
 
 ## Team
 
-| Member | Responsibilities |
-|---------|------------------|
-| **Phan Hong Phuc** | Reward engineering, policy optimization, presentation (Objective 2: Coverage) |
-| **Nguyen Chi Nguyen** | Reward engineering, policy optimization, presentation (Objective 1: Checkpoints) |
-| **Dao Cong Tri Bao** | Reward engineering, policy optimization, presentation (Objective 2: Coverage) |
-| **Tran Hoang Son** | Reward engineering, policy optimization, presentation (Objective 3: Wall-touching) |
-| **Nguyen Hoang Khang Huy** | Reward engineering, policy optimization, presentation (Objective 3: Wall-touching) |
+| Member | Primary Responsibility | Objective Focus |
+| :--- | :--- | :--- |
+| **Phan Hong Phuc** | Reward Engineering, Policy Optimization, Presentation | Objective 2: Map Coverage |
+| **Nguyen Chi Nguyen** | Reward Engineering, Policy Optimization, Presentation | Objective 1: Checkpoint Collection |
+| **Dao Cong Tri Bao** | Reward Engineering, Policy Optimization, Presentation | Objective 2: Map Coverage |
+| **Tran Hoang Son** | Reward Engineering, Policy Optimization, Presentation | Objective 3: Wall-touching / Wall-following |
+| **Nguyen Hoang Khang Huy** | Reward Engineering, Policy Optimization, Presentation | Objective 3: Wall-touching / Wall-following |
 
-Mentor: **Nguyen Minh Thai** (VNUHCM - Ho Chi Minh City University of Technology)
+* **Mentor:** Nguyen Minh Thai *(VNUHCM - Ho Chi Minh City University of Technology)*
 
 ---
 
