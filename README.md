@@ -84,7 +84,7 @@ The optimization process primarily targeted three objectives:
 
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/b33c647b-56e6-4529-a048-c0ec2e89e9fd" />
 
->  **Figure 3.** Result Objective 2: Map Coverage
+>  **Figure 3.** Result for Objective 2: Map Coverage
 
 ---
 
