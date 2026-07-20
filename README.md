@@ -1,4 +1,4 @@
-# RL Policy Optimization for Autonomous Maze Navigation
+# Reward Engineering for Reinforcement Learning-based Autonomous Maze Navigation
 
 A Reinforcement Learning (RL) policy optimization project developed during a robotics hackathon, focusing on autonomous robot navigation in a simulated maze environment.
 
