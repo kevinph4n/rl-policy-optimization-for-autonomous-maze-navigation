@@ -11,7 +11,7 @@ Instead of modifying the learning algorithm itself, our team focused on **reward
 <img width="1365" height="1500" alt="image" src="https://github.com/user-attachments/assets/1e078e78-8828-46ba-a65d-fc04afccdf25" />
 <img width="1365" height="1500" alt="image" src="https://github.com/user-attachments/assets/7084a45b-fce7-4658-a211-ed22e771a6e8" />
 
->  **Figure 1:** Illustrative representation of a Micromouse robot implementing the Flood Fill algorithm for maze-solving by Dao Cong Tri Bao. The background has been modified using Gemini for illustrative clarity. Project supervised by the BotBee Club, Tran Dai Nghia High School for the Gifted, Ho Chi Minh City. 
+>  **Figure 1.** Illustrative representation of a Micromouse robot implementing the Flood Fill algorithm for maze-solving by Dao Cong Tri Bao. The background has been modified using Gemini for illustrative clarity. Project supervised by the BotBee Club, Tran Dai Nghia High School for the Gifted, Ho Chi Minh City. 
 
 ---
 
@@ -77,6 +77,14 @@ The optimization process primarily targeted three objectives:
 - Objective 1 — Checkpoint Collection
 - Objective 2 — Map Coverage
 - Objective 3 — Wall-touching
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/9a5d7c23-9e9e-4dba-8d53-a601210fc693" />
+
+>  **Figure 2.** Results for Objective 1: Checkpoint Collection.
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/b33c647b-56e6-4529-a048-c0ec2e89e9fd" />
+
+>  **Figure 3.** Result Objective 2: Map Coverage
 
 ---
 
